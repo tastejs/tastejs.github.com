@@ -1,0 +1,63 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+	background: #474747;
+	background: -moz-radial-gradient(center, ellipse cover,  #474747 0%, #222222 57%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#474747), color-stop(57%,#222222));
+	background: -webkit-radial-gradient(center, ellipse cover,  #474747 0%,#222222 57%);
+	background: -o-radial-gradient(center, ellipse cover,  #474747 0%,#222222 57%);
+	background: -ms-radial-gradient(center, ellipse cover,  #474747 0%,#222222 57%);
+	background: radial-gradient(ellipse at center,  #474747 0%,#222222 57%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#222222',GradientType=1 );
+
+}
+
+body {
+	font-family: Lato, 'Helvetica Neue';
+	-webkit-font-smoothing: antialiased;
+	color: #c5c5c5;
+	text-align: center;
+}
+
+#logo {
+	margin: 50px auto -90px auto;
+	display: block;
+	position: relative;
+	left: 10px;
+	position: relative;
+	z-index: 1;
+}
+
+h1 {
+	width: 700px;
+	font-size: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	text-shadow: 0px 0px 2px #686868,
+		0px -1px 1px #ddd,
+		0px -2px 1px #d6d6d6,
+		0px -3px 1px #ccc,
+		0px -4px 1px #c5c5c5,
+		0px -5px 1px #c1c1c1,
+		0px -6px 1px #bbb,
+		0px -7px 1px #777;
+}
+
+h1:after {
+	content: url(dripp.png);
+	position: absolute;
+	top: 15px;
+	left: 360px;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
