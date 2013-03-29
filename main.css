@@ -22,10 +22,11 @@ body {
 	-webkit-font-smoothing: antialiased;
 	color: #c5c5c5;
 	text-align: center;
+	padding: 50px 0;
 }
 
 #logo {
-	margin: 50px auto -90px auto;
+	margin: 0 auto -90px auto;
 	display: block;
 	position: relative;
 	left: 10px;
