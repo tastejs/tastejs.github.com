@@ -7,11 +7,9 @@ body {
 html {
 	height: 100%;
 	background: #474747;
-	background: -moz-radial-gradient(center, ellipse cover,  #474747 0%, #222222 57%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#474747), color-stop(57%,#222222));
 	background: -webkit-radial-gradient(center, ellipse cover,  #474747 0%,#222222 57%);
-	background: -o-radial-gradient(center, ellipse cover,  #474747 0%,#222222 57%);
-	background: -ms-radial-gradient(center, ellipse cover,  #474747 0%,#222222 57%);
+	background: -webkit-radial-gradient(center, ellipse, #474747 0%, #222222 57%);
 	background: radial-gradient(ellipse at center,  #474747 0%,#222222 57%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#222222',GradientType=1 );
 
@@ -26,7 +24,7 @@ body {
 }
 
 #logo {
-	margin: 0 auto -90px auto;
+	margin: 0 auto -68px auto;
 	display: block;
 	position: relative;
 	left: 10px;
@@ -36,7 +34,7 @@ body {
 
 h1 {
 	width: 700px;
-	font-size: 200px;
+	font-size: 150px;
 	margin: 0 auto;
 	text-align: center;
 	color: #fff;
@@ -54,11 +52,27 @@ h1 {
 h1:after {
 	content: url(dripp.png);
 	position: absolute;
-	top: 15px;
-	left: 360px;
+	top: 20px;
+	left: 355px;
+}
+
+a {
+	color: #fff;
 }
 
 .container {
 	width: 700px;
 	margin: 0 auto;
+}
+
+.menu a {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 30px;
+	color: #f7d700;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	text-decoration: underline;
 }
