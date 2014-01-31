@@ -58,6 +58,11 @@ h1:after {
 
 a {
 	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .container {
@@ -70,9 +75,4 @@ a {
 	margin: 0 10px;
 	font-size: 30px;
 	color: #f7d700;
-	text-decoration: none;
-}
-
-.menu a:hover {
-	text-decoration: underline;
 }
